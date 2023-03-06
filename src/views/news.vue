@@ -47,7 +47,6 @@
   </div>
 </template>
 
-
 <script>
 import footer2 from "../components/footer.vue";
 import banner2 from "../components/banner.vue";
@@ -103,6 +102,7 @@ export default {
         //..... // now: 变化之后的数据
         // old: 变化之前的数据
         let url = now.name;
+
         // console.log(url);
         // console.log(now, old);
         if (url.includes("TradeNews")) {
@@ -423,5 +423,3 @@ a {
   background: #23337f;
 }
 </style>
-
-

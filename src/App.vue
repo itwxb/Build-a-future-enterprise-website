@@ -1,10 +1,9 @@
 <template>
   <div id="app">
     <!-- <daohang> </daohang> -->
-   
+
     <router-view></router-view>
     <!-- <dibudaohang> </dibudaohang> -->
-
   </div>
 </template>
 
