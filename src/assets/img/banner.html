@@ -1,67 +1,1850 @@
 <!DOCTYPE html>
 <!-- saved from url=(0106)https://js.design/v?i=IMDNsL&p=BBjt9C6I-t&f=3220178D-70EE-40E7-B548-F932F452A5E9&s=default&mode=programmer -->
-<html style="background: rgb(49, 53, 65);"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="ie=edge" http-equiv="x-ua-compatible"><meta content="webkit" name="renderer"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="baidu-site-verification" content="code-BrY2DIlgVa"><meta name="360-site-verification" content="6c84a5724c6cfea1326d1b6ed5a8b351"><meta name="keywords" content="jsdesign,在线协作设计,UI设计,可协作sketch,免费版sketch,国内版figma,中国版figma,sketch资源,sketch源文件,PSD,XD,设计规范,设计资源,figma中文版,标注切图,交互原型,团队协作"><meta name="description" content="即时设计是一款在线可协作的UI设计工具，是可协作的在线sketch、国内版figma，拥有海量的设计资源与素材，支持导入sketch格式的源文件。支持创建交互原型、获取设计标注、快速切图、团队协作等工作。"><title>▶ 页面 1 - 打造前程官网</title><meta name="mobile-web-app-capable" content="yes"><link rel="xiaopiu icon" href="https://img.js.design/assets/webImg/favicon.ico"><meta name="apple-mobile-web-app-title" content="即时设计"><link rel="apple-touch-icon" href="https://img.js.design/assets/img/60c0446dfbc9478b602e15f2.png"><style>body, html{
-      background: #313541;
-    }
-    body > #root {
-      position: fixed;
-      z-index: 9999999;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-    }
-    #root>.main{
-      opacity: 0;
-    }
-    #defaultLoadingPanel {
-      position: fixed;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      background: #313541;
-      z-index: 104;
-    }
-    #defaultLoadingBox {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      padding-bottom: 74px;
-    }
-    #defaultLoadingAnimateBox {
-      position: absolute;
-      left: 22px;
-      top: -31px;
-    }
-    #defaultLoadingWaterFill {
-      animation: wave 5s infinite linear, fill-up 12s infinite ease-out;
-    }
-    @keyframes wave {
-      0% {
-        x: -400px;
-      }
-      100% {
-        x: 0px;
-      }
-    }
-    @keyframes fill-up {
-      0% {
-        y: 60px;
-        height: 0px;
-      }
-      100% {
-        y: -30px;
-        height: 100px;
-      }
-    }
-    #defaultLoadingLogo {
-      width: 76px;
-      height: 22px;
-      position: relative;
-      margin-top: 52px;
-    }</style><link rel="stylesheet" href="./banner_files/atom-one-dark.min.css"><script type="text/javascript" async="" src="./banner_files/analytics.js.下载"></script><script type="text/javascript" async="" src="./banner_files/js"></script><script type="text/javascript" async="" src="./banner_files/getscript"></script><script src="./banner_files/hm.js.下载"></script><script src="./banner_files/hm.js(1).下载"></script><script async="" src="./banner_files/js(1)"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-178292568-1"),window.jsServerUrl="https://ds.js.design",window.jsStaticUrl="https://img.js.design",window.jsUrl="https://js.design",window.jsAgentUrl="http://127.0.0.1:65433"</script><script charset="utf-8" src="./banner_files/chunk.3.e73d997da4df1b916eae.js.下载"></script><link rel="stylesheet" type="text/css" href="./banner_files/2.f605cdf7a019b99a6b45.css"><script charset="utf-8" src="./banner_files/chunk.2.5751b8eb0a125d5dee43.js.下载"></script><style type="text/css">.medium-zoom-overlay{position:fixed;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity .3s;will-change:opacity}.medium-zoom--opened .medium-zoom-overlay{cursor:pointer;cursor:zoom-out;opacity:1}.medium-zoom-image{cursor:pointer;cursor:zoom-in;transition:transform .3s cubic-bezier(.2,0,.2,1)!important}.medium-zoom-image--hidden{visibility:hidden}.medium-zoom-image--opened{position:relative;cursor:pointer;cursor:zoom-out;will-change:transform}</style></head><body><div id="root"><div class="main _30YK7"><div class="_2j0n8"><div class="_3jFQC"><div class="bkoEh _30YK7"><div class="We_O3 _3dZJK"><div class="_3E95l" style="height: 32px;"><div class="_3mmAe dAklB"><div class="_2Px8N" style="max-width: 205px;">页面 1</div><div class="_3oPi0"><div data-eventkey="" class="a_c _11XjX _3Kxha _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;展开&quot;}"></div></div></div><div class="_349hc" id="changePageProcess"><div></div></div></div><div class="_3WAhP _2y4Pp"><input class="_2WK-1" id="resourceSearchInput" placeholder="搜索..." spellcheck="false" autocomplete="off" value=""></div><div class="BY544" id="leftMenuListPanel"><div><div aria-label="grid" aria-readonly="true" class="ReactVirtualized__Grid ReactVirtualized__List" id="fileMenuList" role="grid" tabindex="0" style="box-sizing: border-box; direction: ltr; height: 599px; position: relative; width: 233px; will-change: transform; overflow: hidden auto; outline: none;"><div class="ReactVirtualized__Grid__innerScrollContainer" role="rowgroup" style="width: auto; height: 3296px; max-width: 233px; max-height: 3296px; overflow: hidden; position: relative;"><div style="height: 32px; left: 0px; position: absolute; top: 2464px; width: 100%;"><div data-folder="true" data-id="33DD5D01-0AE5-4412-BB26-63D8EF0E2095" data-deep="3" data-isfixed="false" class="_1TQCJ _34ZCy"><div style="width: 54px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl _2Da3Y"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 129px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组</div><pre>编组</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2496px; width: 100%;"><div data-folder="false" data-id="87293F75-9FD3-4C36-B45F-9004CAC5D89F" data-deep="4" data-isfixed="false" class="_1TQCJ _34ZCy"><div style="width: 70px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl _2KgJw"></div><div class="_3k6A7"><div class="_2h5-H _1566t _3hWdA MLy-N"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 113px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">集团概况</div><pre>集团概况</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2528px; width: 100%;"><div data-folder="true" data-id="4EC6C207-CDA4-4CA5-8099-9389F5B2D42B" data-deep="3" data-isfixed="false" class="_1TQCJ _34ZCy"><div style="width: 54px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl _2KgJw"></div><div class="_3k6A7"><div class="_1-NSa _1566t _3hWdA _1tXhU"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 129px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">分组</div><pre>分组</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2560px; width: 100%;"><div data-folder="false" data-id="E81CDE26-B646-45F7-A016-6D4F8743E56C" data-deep="3" data-isfixed="false" class="_1TQCJ _34ZCy"><div style="width: 54px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl _2KgJw"></div><div class="_3k6A7"><div class="_2h5-H _1566t _3hWdA MLy-N"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 129px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">欢迎加入我们</div><pre>欢迎加入我们</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2592px; width: 100%;"><div data-folder="true" data-id="2ABF746D-7CD8-4AD5-BD68-A2B180B8B5A8" data-deep="3" data-isfixed="false" class="_1TQCJ _34ZCy"><div style="width: 54px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl _2Da3Y"></div><div class="_3k6A7"><div class="_1-NSa _1566t _3hWdA _1tXhU"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 129px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">摄图网_500711579_banner</div><pre>摄图网_500711579_banner</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2624px; width: 100%;"><div data-folder="false" data-id="CE5743E8-DC18-4DE8-8DE9-2CB076650949" data-deep="4" data-isfixed="false" class="_1TQCJ _34ZCy _1j9Wh"><div style="width: 70px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="OsuCm"><div class="_24r70" style="left: 78px;"></div></div><div data-drag="hide" class="_1566t _1pPRl _2KgJw _3IyaF"></div><div class="_3k6A7"><div class="_1yQdW _1566t _3hWdA undefined _3IyaF"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 113px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">矿山banner1</div><pre>矿山banner1</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2656px; width: 100%;"><div data-folder="false" data-id="8966DF9C-ED54-47A0-8E0B-3395DB329FBC" data-deep="4" data-isfixed="false" class="_1TQCJ _34ZCy"><div style="width: 70px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="OsuCm"><div class="oJnYz" style="left: 78px;"></div></div><div data-drag="hide" class="_1566t _1pPRl _2KgJw"></div><div class="_3k6A7"><div class="undefined _27NT6 _1566t _3hWdA _2TNr9"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 113px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">摄图网_500271031_banner</div><pre>摄图网_500271031_banner</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2688px; width: 100%;"><div data-folder="false" data-id="3638CA3B-6ED4-4325-897E-48C6F6DDD02C" data-deep="4" data-isfixed="false" class="_1TQCJ _34ZCy"><div style="width: 70px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="OsuCm"><div class="_17tm6" style="left: 78px;"></div></div><div data-drag="hide" class="_1566t _1pPRl _2KgJw"></div><div class="_3k6A7" style="transform: rotate(0deg) rotateY(0deg) rotateX(0deg);"><div class="_2coso _3aSg_"><svg class="shapeIcon" width="12" height="12" viewBox="-80.00000000000001 -890 2080 2080" xmlns="http://www.w3.org/2000/svg"><g><path d="M0 300L1920 300L1920 0L0 0L0 300Z" stroke="rgba(255, 123, 176, 1)" stroke-width="160" fill="transparent"></path></g></svg></div></div><div class="_2pv0V _3QO7_"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 113px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Mask</div><pre>Mask</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2720px; width: 100%;"><div data-folder="true" data-id="40DDB797-3A29-40B8-A906-DE1E8D32007E" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">招聘信息</div><pre>招聘信息</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2752px; width: 100%;"><div data-folder="true" data-id="2D722A4F-0931-4C6B-B6C6-8CD57791A4D6" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">联系我们</div><pre>联系我们</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2784px; width: 100%;"><div data-folder="true" data-id="FFC257EC-8B20-4446-B8E8-A712481FBBFD" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组 21</div><pre>编组 21</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2816px; width: 100%;"><div data-folder="true" data-id="1CE85A74-61A2-4959-B003-955F0529BC80" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组 27</div><pre>编组 27</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2848px; width: 100%;"><div data-folder="true" data-id="BC80CA03-0E72-4150-95A2-D2BC7066E403" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组 38备份</div><pre>编组 38备份</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2880px; width: 100%;"><div data-folder="true" data-id="409D95A3-3722-41F5-A2EC-B969D9ED3079" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组 43</div><pre>编组 43</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2912px; width: 100%;"><div data-folder="true" data-id="51276DA2-4CA7-418A-9577-AC467A8B4C7E" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组 39</div><pre>编组 39</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2944px; width: 100%;"><div data-folder="true" data-id="5CFD3F51-6803-416E-8719-8DC0167EB44B" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组 7备份 5</div><pre>编组 7备份 5</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 2976px; width: 100%;"><div data-folder="true" data-id="9825D133-C989-4EBC-9963-5271F2030DA7" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组 30</div><pre>编组 30</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 3008px; width: 100%;"><div data-folder="true" data-id="C8F21D12-A4AD-4B75-B57C-99417C7E29F7" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组 29</div><pre>编组 29</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 3040px; width: 100%;"><div data-folder="true" data-id="30D3E962-DAA8-47DC-9D24-1634CB55CAA9" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组 22</div><pre>编组 22</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 3072px; width: 100%;"><div data-folder="true" data-id="E0B945FB-156F-4824-8607-98EE4AB4D628" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组 25</div><pre>编组 25</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 3104px; width: 100%;"><div data-folder="true" data-id="9F65CE51-FBDB-4050-99C8-C5E185374E00" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">编组 23</div><pre>编组 23</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 3136px; width: 100%;"><div data-folder="true" data-id="7C4F8024-B90E-4C43-B346-AC9260878384" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">1-1首页备份</div><pre>1-1首页备份</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 3168px; width: 100%;"><div data-folder="true" data-id="F6A6C521-9692-4D5A-A7B2-D8AD850A538F" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">首页</div><pre>首页</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 3200px; width: 100%;"><div data-folder="true" data-id="9F2C2DFD-922B-4315-8E40-121D2F0E5BDD" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">新闻详情</div><pre>新闻详情</pre></div></div></div></div><div style="height: 32px; left: 0px; position: absolute; top: 3232px; width: 100%;"><div data-folder="true" data-id="C8ED35EB-5B8B-419C-83C9-64298A520A5D" data-deep="0" data-isfixed="false" class="_1TQCJ _1IDIL _34ZCy"><div style="width: 6px; height: 100%; flex-shrink: 0;"></div><div data-drag="hide" class="_1566t _1pPRl"></div><div class="_3k6A7"><div class="_3hb60 _1566t _3hWdA _6nN_e"></div></div><div class="_2pv0V"><div class="_1iUrS _2hfj-"><div class="readonly-input" style="width: 177px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">企业新闻</div><pre>企业新闻</pre></div></div></div></div></div></div></div></div></div></div><canvas width="1920" height="902.5" id="editCanvas" style="transform: scale(0.8); transform-origin: left top;"></canvas></div><header class="_366yk _1kQvz _2hG4V _30YK7"><div class="_3CS_R"><div class="urc_i"><div><div class="_2cqDU _34ZCy"></div></div><div class="_2rBQQ"><div class="_2Q_gj">打造前程官网</div></div><div data-eventkey="" class="a_c _11XjX _1Xiz- _1kjCa _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;编辑&quot;}"></div></div><div class="_1WYcg"><div class="eRLan" data-type="discuss"><div data-eventkey="" class="a_c _11XjX _3OUqs _1WTaD _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;评论模式 Alt + 1&quot;}"></div><div class="undefined"></div></div><div class="eRLan ANgKh" data-type="programmer"><div data-eventkey="" class="a_c _11XjX _3Sxdh _1WTaD ANgKh _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;开发模式 Alt + 2&quot;}"></div></div><div class="eRLan" data-type="proto"><div data-eventkey="" class="a_c _11XjX _22BE7 _1WTaD _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;原型模式 Alt + 3&quot;}"></div></div><div class="eRLan" data-type="preview"><div data-eventkey="" class="a_c _11XjX _2bDuz _1WTaD _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;预览模式 Alt + 4&quot;}"></div></div></div><div class="_6JIa9"><div class="_1FrdA _3ZJgq"><div id="avatar-WC22soyCl433Tp5uAkgF" class="a_c _2LVGi _34ZCy"><div class="ESnVt dvkHm" title="未登录" style="background: rgb(157, 147, 96);"><div class="_2ns9w">未</div></div><div class="_1_jP9" style="background: rgb(47, 175, 253);"></div><div class="_3hi28 _1erwO"><div class="_201Xa"><div class="_2zq-S J8UXW">未登录</div><span class="_17pP7">[我]</span></div></div></div><div id="avatar-xoPf6sI2skqvuCyNAl90" class="a_c _2LVGi _34ZCy"><img class="_3VJUb" src="./banner_files/64"><div class="_1_jP9" style="background: rgb(255, 182, 56);"></div><div class="_3hi28 _1erwO"><div class="_201Xa"><div class="_2zq-S">微风凌乱 清日可睌</div></div></div></div></div><div data-eventkey="" class="a_c _11XjX CIpwf kxxkc _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;分享&quot;}"></div><div data-eventkey="" class="a_c _11XjX _3FPPs kxxkc _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;导出切图&quot;}"></div><div data-eventkey="" class="a_c _11XjX _3hALP kxxkc _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;显示设置&quot;}"></div><div data-eventkey="" class="a_c _11XjX AsIdl mt6Bk _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;全屏预览&quot;}"></div></div></div></header><canvas id="paperCanvas" width="375" height="187" style="pointer-events: none; -webkit-user-drag: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 300px; height: 150px;"></canvas></div><div class="_2csXo _30YK7"><div class="_1kK5X"><div class="_2FHcA"><div class="_2ipok _2V6v6 ctFPk"><div class="_1fahC _3RhwV kms-a undefined _2lw5V _3kBaK _2JEKG" data-isdrag="true"><div class="_3lLQa orydJ _34ZCy undefined" data-clipboard-text="矿山banner1" id="copyTrigger" style="width: 208px; height: 28px;"><div class="_2n83y _1bwvb">矿山banner1</div></div></div><div class="_2ipok _2V6v6 _197pK"><div class="_1fahC _3RhwV kms-a undefined _2lw5V _2JEKG" data-isdrag="true"><div class="_2KSRx"><div class="_1gnVf _1w9V3">X</div><div class="_3lLQa orydJ _34ZCy undefined" data-clipboard-text="0px" id="copyTrigger" style="width: 72px;"><div class="_2n83y">0px</div></div></div><div class="_2KSRx"><div class="_1gnVf _1w9V3">Y</div><div class="_3lLQa orydJ _34ZCy undefined" data-clipboard-text="0px" id="copyTrigger" style="width: 72px;"><div class="_2n83y">0px</div></div></div></div><div class="_1fahC _3RhwV kms-a undefined _2JEKG" data-isdrag="true"><div class="_2KSRx"><div class="_1gnVf _1w9V3">W</div><div class="_3lLQa orydJ _34ZCy undefined" data-clipboard-text="1920px" id="copyTrigger" style="width: 72px;"><div class="_2n83y">1920px</div></div></div><div class="_2KSRx"><div class="_1gnVf _1w9V3">H</div><div class="_3lLQa orydJ _34ZCy undefined" data-clipboard-text="300px" id="copyTrigger" style="width: 72px;"><div class="_2n83y">300px</div></div></div></div></div></div><div class="_2ipok _2V6v6 _197pK"><div class="_1fahC kms-a undefined _2lw5V _2JEKG" data-isdrag="true"><div class="_3EUn8 _3RRHk _3X4rZ">响应式</div></div><div class="_1fahC _3RhwV kms-a undefined _2lw5V _2JEKG" data-isdrag="true"><div class="_3lLQa orydJ _34ZCy undefined" data-clipboard-text="缩放" id="copyTrigger" style="width: 100px;"><div class="_2n83y">缩放</div></div><div class="_3lLQa orydJ _34ZCy undefined" data-clipboard-text="缩放" id="copyTrigger" style="width: 100px;"><div class="_2n83y">缩放</div></div></div></div><div class="_2ipok _2V6v6 _197pK"><div class="_1fahC kms-a undefined _2lw5V _2JEKG" data-isdrag="true"><div class="_3-7up"><div class="_1PStp"><div class="_3EUn8 _3X4rZ" style="margin-right: 4px;">切图</div><div id="" class="_3tblH _1o8Yp _3YTQz _34ZCy KRju0" data-text="规范预设" data-value="format" style="height: 20px; line-height: 20px;"><span class="HQ9d5 wzlos" data-text="规范预设" style="text-indent: 0px;">规范预设</span><div class="yjBfN HQ9d5 _1o8Yp"></div></div></div></div><div data-eventkey="" class="a_c _11XjX P9Kx2 _3EYlc afPna _2iU7h _34ZCy"></div></div><div class="_2EX-h"><div class="undefined"><div class="_3ueFu _2TwV2"><div class="nOwm7"></div><div class="_2nbSg fa_5l"><img src="blob:https://js.design/1ce90051-1b97-4005-88ce-5df6b20b74c4" width="120" height="18.75"></div></div></div><div class="_2G1cR _3VAHG"><div class="ckaAF"><div id="" class="_3tblH _1o8Yp _34ZCy" data-text="PNG" data-value="PNG" style="height: 24px; width: 208px; max-width: 208px; line-height: 24px;"><span class="" data-text="PNG" style="width: 188px;">PNG</span><div class="yjBfN _1o8Yp"></div></div></div><div class="ckaAF"><div id="" class="_3tblH _1o8Yp _34ZCy" data-text="iOS" data-value="ios" style="height: 24px; width: 208px; max-width: 208px; line-height: 24px;"><span class="" data-text="iOS" style="width: 188px;">iOS</span><div class="yjBfN _1o8Yp"></div></div></div><div class="_3YdZr"><div class="_1KhHC _34ZCy"><div class="PUf2m PUf2m _29R8J _39C2u _34ZCy" style="margin-right: 4px;"></div><div class="_1Y0ww gr-Z3">标准点@1x</div></div><div class="l76i7"><div class="_3LJxs">1920 x 300 </div><div class="_1AihQ gr-Z3">px</div></div></div><div class="_3YdZr"><div class="_1KhHC _34ZCy"><div class="PUf2m PUf2m _29R8J _39C2u _34ZCy" style="margin-right: 4px;"></div><div class="_1Y0ww gr-Z3">视网膜@2x</div></div><div class="l76i7"><div class="_3LJxs">3840 x 600 </div><div class="_1AihQ gr-Z3">px</div></div></div><div class="_3YdZr"><div class="_1KhHC _34ZCy"><div class="PUf2m PUf2m _29R8J _39C2u _34ZCy" style="margin-right: 4px;"></div><div class="_1Y0ww gr-Z3">高清视网膜@3x</div></div><div class="l76i7"><div class="_3LJxs">5760 x 900 </div><div class="_1AihQ gr-Z3">px</div></div></div><div class="_1XIak _1yqiw _3VAHG _34ZCy">导出当前切图</div></div></div></div></div></div></div><div class="_1gVEJ"><div class="_3FJz3"><div data-eventkey="" class="a_c _11XjX _2kfg9 _2jLoV _2rw-N _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;穿透点击&quot;,&quot;direction&quot;:&quot;top&quot;}"></div><div data-eventkey="" class="a_c _11XjX _2kfg9 _24wRv _2iU7h _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;快捷键&quot;,&quot;direction&quot;:&quot;top&quot;}"></div></div><div class="_1_JWi"><div class="a_c _15cfx _24jUm _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;缩小&quot;,&quot;direction&quot;:&quot;top&quot;}"></div><div class="_2Qn-4"><div class="gATb5 _34ZCy">42%</div><div id="" class="_3tblH _1o8Yp _3YTQz _34ZCy _3OArF" data-text="42.07615949213505" data-value="42.07615949213505" style="width: 64px; max-width: 78px;"><span class="" data-text="42.07615949213505" style="width: 44px;">42.07615949213505</span><div class="yjBfN _1o8Yp"></div></div></div><div class="a_c _15cfx LOOoC _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;放大&quot;,&quot;direction&quot;:&quot;top&quot;}"></div></div></div><div class="lrqrL _1rCw_"><div class="EHZbF"><div class="a_c _3lm54 _1QBqm _34ZCy" data-contr="hovertip" data-option="{&quot;text&quot;:&quot;切换主题&quot;,&quot;direction&quot;:&quot;bottom&quot;}"></div><div class="_2iHGl"><div class="_37_Ff"><div class="_2a8dY _34ZCy _3Nx-4"><div class="_2UAe6 _1ulnD"></div><div><div class="_2Z9Ha">帮助中心</div></div></div><div class="_2a8dY _34ZCy _3Nx-4"><div class="_2UAe6 _2VBcm"></div><div><div class="_2Z9Ha">用户交流群</div></div><div class="_2n4m0"><div class="_2_Zw3"><div class="_2_LXT mEGRA"><div class="sVgjF">微信群</div><div class="NjAOG mEGRA _34ZCy"><div class="_1IK_N"></div><div class="A5BPS twIHE"></div><div class="A5BPS _3-U23"></div><div class="A5BPS _13s8n"></div><div class="A5BPS _2OW_m"></div></div></div><div class="_2_LXT"><div class="sVgjF" id="qqNumberDom" data-clipboard-text="277265711">QQ群<span> (277265711)</span></div><div class="NjAOG"><div class="_1IK_N Y3sl-"></div><div class="A5BPS twIHE"></div><div class="A5BPS _3-U23"></div><div class="A5BPS _13s8n"></div><div class="A5BPS _2OW_m"></div></div></div></div></div></div></div><div class="_3lm54 _2TsAW" id="helpBtnProcess" data-type="helpIcon"></div></div></div></div></div></div><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?ddd59aa40de002d720cfbf59998d94ac";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?d6e5c41bbadb10953c79a938d9d4b239";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><script type="text/javascript">var _jwcmd=_jwcmd||[];_jwcmd.sid="a3a7dd4658bd4bf1adeed3475415007d",function(){var e=document.getElementsByTagName("script")[0],t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="//tracking.jwsem.com/v2/getscript?sid=a3a7dd4658bd4bf1adeed3475415007d&time="+(new Date).getTime(),e.parentNode.insertBefore(t,e)}()</script><script>window.isProduction=!0</script><script type="text/javascript" src="./banner_files/runtime_app.eb772f7da3e45ca4740c.js.下载"></script><script type="text/javascript" src="./banner_files/chunk.app.d91cd3babd0eb84074da.js.下载"></script><div class="_2jIHp _1tkPp" style="width: 91px; left: 788.5px; top: 50px; display: none;"><div class="OsFG0" style="left: 57.5px; top: -4px;"></div><span>预览模式 Alt + 4</span></div></body></html>
+<html style="background: rgb(49, 53, 65)">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="ie=edge" http-equiv="x-ua-compatible" />
+		<meta content="webkit" name="renderer" />
+		<meta
+			name="viewport"
+			content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+		/>
+		<meta name="baidu-site-verification" content="code-BrY2DIlgVa" />
+		<meta
+			name="360-site-verification"
+			content="6c84a5724c6cfea1326d1b6ed5a8b351"
+		/>
+		<meta
+			name="keywords"
+			content="jsdesign,在线协作设计,UI设计,可协作sketch,免费版sketch,国内版figma,中国版figma,sketch资源,sketch源文件,PSD,XD,设计规范,设计资源,figma中文版,标注切图,交互原型,团队协作"
+		/>
+		<meta
+			name="description"
+			content="即时设计是一款在线可协作的UI设计工具，是可协作的在线sketch、国内版figma，拥有海量的设计资源与素材，支持导入sketch格式的源文件。支持创建交互原型、获取设计标注、快速切图、团队协作等工作。"
+		/>
+		<title>▶ 页面 1 - 打造前程官网</title>
+		<meta name="mobile-web-app-capable" content="yes" />
+		<link
+			rel="xiaopiu icon"
+			href="https://img.js.design/assets/webImg/favicon.ico"
+		/>
+		<meta name="apple-mobile-web-app-title" content="即时设计" />
+		<link
+			rel="apple-touch-icon"
+			href="https://img.js.design/assets/img/60c0446dfbc9478b602e15f2.png"
+		/>
+		<style>
+			body,
+			html {
+				background: #313541;
+			}
+			body > #root {
+				position: fixed;
+				z-index: 9999999;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+			}
+			#root > .main {
+				opacity: 0;
+			}
+			#defaultLoadingPanel {
+				position: fixed;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				background: #313541;
+				z-index: 104;
+			}
+			#defaultLoadingBox {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				padding-bottom: 74px;
+			}
+			#defaultLoadingAnimateBox {
+				position: absolute;
+				left: 22px;
+				top: -31px;
+			}
+			#defaultLoadingWaterFill {
+				animation: wave 5s infinite linear, fill-up 12s infinite ease-out;
+			}
+			@keyframes wave {
+				0% {
+					x: -400px;
+				}
+				100% {
+					x: 0px;
+				}
+			}
+			@keyframes fill-up {
+				0% {
+					y: 60px;
+					height: 0px;
+				}
+				100% {
+					y: -30px;
+					height: 100px;
+				}
+			}
+			#defaultLoadingLogo {
+				width: 76px;
+				height: 22px;
+				position: relative;
+				margin-top: 52px;
+			}
+		</style>
+		<link rel="stylesheet" href="./banner_files/atom-one-dark.min.css" />
+		<script
+			type="text/javascript"
+			async=""
+			src="./banner_files/analytics.js.下载"
+		></script>
+		<script type="text/javascript" async="" src="./banner_files/js"></script>
+		<script
+			type="text/javascript"
+			async=""
+			src="./banner_files/getscript"
+		></script>
+		<script src="./banner_files/hm.js.下载"></script>
+		<script src="./banner_files/hm.js(1).下载"></script>
+		<script async="" src="./banner_files/js(1)"></script>
+		<script>
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			(window.dataLayer = window.dataLayer || []),
+				gtag("js", new Date()),
+				gtag("config", "UA-178292568-1"),
+				(window.jsServerUrl = "https://ds.js.design"),
+				(window.jsStaticUrl = "https://img.js.design"),
+				(window.jsUrl = "https://js.design"),
+				(window.jsAgentUrl = "http://127.0.0.1:65433");
+		</script>
+		<script
+			charset="utf-8"
+			src="./banner_files/chunk.3.e73d997da4df1b916eae.js.下载"
+		></script>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="./banner_files/2.f605cdf7a019b99a6b45.css"
+		/>
+		<script
+			charset="utf-8"
+			src="./banner_files/chunk.2.5751b8eb0a125d5dee43.js.下载"
+		></script>
+		<style type="text/css">
+			.medium-zoom-overlay {
+				position: fixed;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				opacity: 0;
+				transition: opacity 0.3s;
+				will-change: opacity;
+			}
+			.medium-zoom--opened .medium-zoom-overlay {
+				cursor: pointer;
+				cursor: zoom-out;
+				opacity: 1;
+			}
+			.medium-zoom-image {
+				cursor: pointer;
+				cursor: zoom-in;
+				transition: transform 0.3s cubic-bezier(0.2, 0, 0.2, 1) !important;
+			}
+			.medium-zoom-image--hidden {
+				visibility: hidden;
+			}
+			.medium-zoom-image--opened {
+				position: relative;
+				cursor: pointer;
+				cursor: zoom-out;
+				will-change: transform;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="root">
+			<div class="main _30YK7">
+				<div class="_2j0n8">
+					<div class="_3jFQC">
+						<div class="bkoEh _30YK7">
+							<div class="We_O3 _3dZJK">
+								<div class="_3E95l" style="height: 32px">
+									<div class="_3mmAe dAklB">
+										<div class="_2Px8N" style="max-width: 205px">页面 1</div>
+										<div class="_3oPi0">
+											<div
+												data-eventkey=""
+												class="a_c _11XjX _3Kxha _2iU7h _34ZCy"
+												data-contr="hovertip"
+												data-option='{"text":"展开"}'
+											></div>
+										</div>
+									</div>
+									<div class="_349hc" id="changePageProcess"><div></div></div>
+								</div>
+								<div class="_3WAhP _2y4Pp">
+									<input
+										class="_2WK-1"
+										id="resourceSearchInput"
+										placeholder="搜索..."
+										spellcheck="false"
+										autocomplete="off"
+										value=""
+									/>
+								</div>
+								<div class="BY544" id="leftMenuListPanel">
+									<div>
+										<div
+											aria-label="grid"
+											aria-readonly="true"
+											class="ReactVirtualized__Grid ReactVirtualized__List"
+											id="fileMenuList"
+											role="grid"
+											tabindex="0"
+											style="
+												box-sizing: border-box;
+												direction: ltr;
+												height: 599px;
+												position: relative;
+												width: 233px;
+												will-change: transform;
+												overflow: hidden auto;
+												outline: none;
+											"
+										>
+											<div
+												class="ReactVirtualized__Grid__innerScrollContainer"
+												role="rowgroup"
+												style="
+													width: auto;
+													height: 3296px;
+													max-width: 233px;
+													max-height: 3296px;
+													overflow: hidden;
+													position: relative;
+												"
+											>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2464px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="33DD5D01-0AE5-4412-BB26-63D8EF0E2095"
+														data-deep="3"
+														data-isfixed="false"
+														class="_1TQCJ _34ZCy"
+													>
+														<div
+															style="width: 54px; height: 100%; flex-shrink: 0"
+														></div>
+														<div
+															data-drag="hide"
+															class="_1566t _1pPRl _2Da3Y"
+														></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 129px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组
+																</div>
+																<pre>编组</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2496px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="false"
+														data-id="87293F75-9FD3-4C36-B45F-9004CAC5D89F"
+														data-deep="4"
+														data-isfixed="false"
+														class="_1TQCJ _34ZCy"
+													>
+														<div
+															style="width: 70px; height: 100%; flex-shrink: 0"
+														></div>
+														<div
+															data-drag="hide"
+															class="_1566t _1pPRl _2KgJw"
+														></div>
+														<div class="_3k6A7">
+															<div class="_2h5-H _1566t _3hWdA MLy-N"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 113px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	集团概况
+																</div>
+																<pre>集团概况</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2528px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="4EC6C207-CDA4-4CA5-8099-9389F5B2D42B"
+														data-deep="3"
+														data-isfixed="false"
+														class="_1TQCJ _34ZCy"
+													>
+														<div
+															style="width: 54px; height: 100%; flex-shrink: 0"
+														></div>
+														<div
+															data-drag="hide"
+															class="_1566t _1pPRl _2KgJw"
+														></div>
+														<div class="_3k6A7">
+															<div class="_1-NSa _1566t _3hWdA _1tXhU"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 129px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	分组
+																</div>
+																<pre>分组</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2560px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="false"
+														data-id="E81CDE26-B646-45F7-A016-6D4F8743E56C"
+														data-deep="3"
+														data-isfixed="false"
+														class="_1TQCJ _34ZCy"
+													>
+														<div
+															style="width: 54px; height: 100%; flex-shrink: 0"
+														></div>
+														<div
+															data-drag="hide"
+															class="_1566t _1pPRl _2KgJw"
+														></div>
+														<div class="_3k6A7">
+															<div class="_2h5-H _1566t _3hWdA MLy-N"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 129px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	欢迎加入我们
+																</div>
+																<pre>欢迎加入我们</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2592px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="2ABF746D-7CD8-4AD5-BD68-A2B180B8B5A8"
+														data-deep="3"
+														data-isfixed="false"
+														class="_1TQCJ _34ZCy"
+													>
+														<div
+															style="width: 54px; height: 100%; flex-shrink: 0"
+														></div>
+														<div
+															data-drag="hide"
+															class="_1566t _1pPRl _2Da3Y"
+														></div>
+														<div class="_3k6A7">
+															<div class="_1-NSa _1566t _3hWdA _1tXhU"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 129px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	摄图网_500711579_banner
+																</div>
+																<pre>摄图网_500711579_banner</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2624px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="false"
+														data-id="CE5743E8-DC18-4DE8-8DE9-2CB076650949"
+														data-deep="4"
+														data-isfixed="false"
+														class="_1TQCJ _34ZCy _1j9Wh"
+													>
+														<div
+															style="width: 70px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="OsuCm">
+															<div class="_24r70" style="left: 78px"></div>
+														</div>
+														<div
+															data-drag="hide"
+															class="_1566t _1pPRl _2KgJw _3IyaF"
+														></div>
+														<div class="_3k6A7">
+															<div
+																class="_1yQdW _1566t _3hWdA undefined _3IyaF"
+															></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 113px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	矿山banner1
+																</div>
+																<pre>矿山banner1</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2656px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="false"
+														data-id="8966DF9C-ED54-47A0-8E0B-3395DB329FBC"
+														data-deep="4"
+														data-isfixed="false"
+														class="_1TQCJ _34ZCy"
+													>
+														<div
+															style="width: 70px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="OsuCm">
+															<div class="oJnYz" style="left: 78px"></div>
+														</div>
+														<div
+															data-drag="hide"
+															class="_1566t _1pPRl _2KgJw"
+														></div>
+														<div class="_3k6A7">
+															<div
+																class="undefined _27NT6 _1566t _3hWdA _2TNr9"
+															></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 113px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	摄图网_500271031_banner
+																</div>
+																<pre>摄图网_500271031_banner</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2688px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="false"
+														data-id="3638CA3B-6ED4-4325-897E-48C6F6DDD02C"
+														data-deep="4"
+														data-isfixed="false"
+														class="_1TQCJ _34ZCy"
+													>
+														<div
+															style="width: 70px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="OsuCm">
+															<div class="_17tm6" style="left: 78px"></div>
+														</div>
+														<div
+															data-drag="hide"
+															class="_1566t _1pPRl _2KgJw"
+														></div>
+														<div
+															class="_3k6A7"
+															style="
+																transform: rotate(0deg) rotateY(0deg)
+																	rotateX(0deg);
+															"
+														>
+															<div class="_2coso _3aSg_">
+																<svg
+																	class="shapeIcon"
+																	width="12"
+																	height="12"
+																	viewBox="-80.00000000000001 -890 2080 2080"
+																	xmlns="http://www.w3.org/2000/svg"
+																>
+																	<g>
+																		<path
+																			d="M0 300L1920 300L1920 0L0 0L0 300Z"
+																			stroke="rgba(255, 123, 176, 1)"
+																			stroke-width="160"
+																			fill="transparent"
+																		></path>
+																	</g>
+																</svg>
+															</div>
+														</div>
+														<div class="_2pv0V _3QO7_">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 113px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	Mask
+																</div>
+																<pre>Mask</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2720px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="40DDB797-3A29-40B8-A906-DE1E8D32007E"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	招聘信息
+																</div>
+																<pre>招聘信息</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2752px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="2D722A4F-0931-4C6B-B6C6-8CD57791A4D6"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	联系我们
+																</div>
+																<pre>联系我们</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2784px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="FFC257EC-8B20-4446-B8E8-A712481FBBFD"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组 21
+																</div>
+																<pre>编组 21</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2816px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="1CE85A74-61A2-4959-B003-955F0529BC80"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组 27
+																</div>
+																<pre>编组 27</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2848px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="BC80CA03-0E72-4150-95A2-D2BC7066E403"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组 38备份
+																</div>
+																<pre>编组 38备份</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2880px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="409D95A3-3722-41F5-A2EC-B969D9ED3079"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组 43
+																</div>
+																<pre>编组 43</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2912px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="51276DA2-4CA7-418A-9577-AC467A8B4C7E"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组 39
+																</div>
+																<pre>编组 39</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2944px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="5CFD3F51-6803-416E-8719-8DC0167EB44B"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组 7备份 5
+																</div>
+																<pre>编组 7备份 5</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 2976px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="9825D133-C989-4EBC-9963-5271F2030DA7"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组 30
+																</div>
+																<pre>编组 30</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 3008px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="C8F21D12-A4AD-4B75-B57C-99417C7E29F7"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组 29
+																</div>
+																<pre>编组 29</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 3040px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="30D3E962-DAA8-47DC-9D24-1634CB55CAA9"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组 22
+																</div>
+																<pre>编组 22</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 3072px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="E0B945FB-156F-4824-8607-98EE4AB4D628"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组 25
+																</div>
+																<pre>编组 25</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 3104px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="9F65CE51-FBDB-4050-99C8-C5E185374E00"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	编组 23
+																</div>
+																<pre>编组 23</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 3136px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="7C4F8024-B90E-4C43-B346-AC9260878384"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	1-1首页备份
+																</div>
+																<pre>1-1首页备份</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 3168px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="F6A6C521-9692-4D5A-A7B2-D8AD850A538F"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	首页
+																</div>
+																<pre>首页</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 3200px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="9F2C2DFD-922B-4315-8E40-121D2F0E5BDD"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	新闻详情
+																</div>
+																<pre>新闻详情</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div
+													style="
+														height: 32px;
+														left: 0px;
+														position: absolute;
+														top: 3232px;
+														width: 100%;
+													"
+												>
+													<div
+														data-folder="true"
+														data-id="C8ED35EB-5B8B-419C-83C9-64298A520A5D"
+														data-deep="0"
+														data-isfixed="false"
+														class="_1TQCJ _1IDIL _34ZCy"
+													>
+														<div
+															style="width: 6px; height: 100%; flex-shrink: 0"
+														></div>
+														<div data-drag="hide" class="_1566t _1pPRl"></div>
+														<div class="_3k6A7">
+															<div class="_3hb60 _1566t _3hWdA _6nN_e"></div>
+														</div>
+														<div class="_2pv0V">
+															<div class="_1iUrS _2hfj-">
+																<div
+																	class="readonly-input"
+																	style="
+																		width: 177px;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		white-space: nowrap;
+																	"
+																>
+																	企业新闻
+																</div>
+																<pre>企业新闻</pre>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<canvas
+							width="1920"
+							height="902.5"
+							id="editCanvas"
+							style="transform: scale(0.8); transform-origin: left top"
+						></canvas>
+					</div>
+					<header class="_366yk _1kQvz _2hG4V _30YK7">
+						<div class="_3CS_R">
+							<div class="urc_i">
+								<div><div class="_2cqDU _34ZCy"></div></div>
+								<div class="_2rBQQ"><div class="_2Q_gj">打造前程官网</div></div>
+								<div
+									data-eventkey=""
+									class="a_c _11XjX _1Xiz- _1kjCa _2iU7h _34ZCy"
+									data-contr="hovertip"
+									data-option='{"text":"编辑"}'
+								></div>
+							</div>
+							<div class="_1WYcg">
+								<div class="eRLan" data-type="discuss">
+									<div
+										data-eventkey=""
+										class="a_c _11XjX _3OUqs _1WTaD _2iU7h _34ZCy"
+										data-contr="hovertip"
+										data-option='{"text":"评论模式 Alt + 1"}'
+									></div>
+									<div class="undefined"></div>
+								</div>
+								<div class="eRLan ANgKh" data-type="programmer">
+									<div
+										data-eventkey=""
+										class="a_c _11XjX _3Sxdh _1WTaD ANgKh _2iU7h _34ZCy"
+										data-contr="hovertip"
+										data-option='{"text":"开发模式 Alt + 2"}'
+									></div>
+								</div>
+								<div class="eRLan" data-type="proto">
+									<div
+										data-eventkey=""
+										class="a_c _11XjX _22BE7 _1WTaD _2iU7h _34ZCy"
+										data-contr="hovertip"
+										data-option='{"text":"原型模式 Alt + 3"}'
+									></div>
+								</div>
+								<div class="eRLan" data-type="preview">
+									<div
+										data-eventkey=""
+										class="a_c _11XjX _2bDuz _1WTaD _2iU7h _34ZCy"
+										data-contr="hovertip"
+										data-option='{"text":"预览模式 Alt + 4"}'
+									></div>
+								</div>
+							</div>
+							<div class="_6JIa9">
+								<div class="_1FrdA _3ZJgq">
+									<div
+										id="avatar-WC22soyCl433Tp5uAkgF"
+										class="a_c _2LVGi _34ZCy"
+									>
+										<div
+											class="ESnVt dvkHm"
+											title="未登录"
+											style="background: rgb(157, 147, 96)"
+										>
+											<div class="_2ns9w">未</div>
+										</div>
+										<div
+											class="_1_jP9"
+											style="background: rgb(47, 175, 253)"
+										></div>
+										<div class="_3hi28 _1erwO">
+											<div class="_201Xa">
+												<div class="_2zq-S J8UXW">未登录</div>
+												<span class="_17pP7">[我]</span>
+											</div>
+										</div>
+									</div>
+									<div
+										id="avatar-xoPf6sI2skqvuCyNAl90"
+										class="a_c _2LVGi _34ZCy"
+									>
+										<img class="_3VJUb" src="./banner_files/64" />
+										<div
+											class="_1_jP9"
+											style="background: rgb(255, 182, 56)"
+										></div>
+										<div class="_3hi28 _1erwO">
+											<div class="_201Xa">
+												<div class="_2zq-S">微风凌乱 清日可睌</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div
+									data-eventkey=""
+									class="a_c _11XjX CIpwf kxxkc _2iU7h _34ZCy"
+									data-contr="hovertip"
+									data-option='{"text":"分享"}'
+								></div>
+								<div
+									data-eventkey=""
+									class="a_c _11XjX _3FPPs kxxkc _2iU7h _34ZCy"
+									data-contr="hovertip"
+									data-option='{"text":"导出切图"}'
+								></div>
+								<div
+									data-eventkey=""
+									class="a_c _11XjX _3hALP kxxkc _2iU7h _34ZCy"
+									data-contr="hovertip"
+									data-option='{"text":"显示设置"}'
+								></div>
+								<div
+									data-eventkey=""
+									class="a_c _11XjX AsIdl mt6Bk _2iU7h _34ZCy"
+									data-contr="hovertip"
+									data-option='{"text":"全屏预览"}'
+								></div>
+							</div>
+						</div>
+					</header>
+					<canvas
+						id="paperCanvas"
+						width="375"
+						height="187"
+						style="
+							pointer-events: none;
+							-webkit-user-drag: none;
+							user-select: none;
+							-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+							width: 300px;
+							height: 150px;
+						"
+					></canvas>
+				</div>
+				<div class="_2csXo _30YK7">
+					<div class="_1kK5X">
+						<div class="_2FHcA">
+							<div class="_2ipok _2V6v6 ctFPk">
+								<div
+									class="_1fahC _3RhwV kms-a undefined _2lw5V _3kBaK _2JEKG"
+									data-isdrag="true"
+								>
+									<div
+										class="_3lLQa orydJ _34ZCy undefined"
+										data-clipboard-text="矿山banner1"
+										id="copyTrigger"
+										style="width: 208px; height: 28px"
+									>
+										<div class="_2n83y _1bwvb">矿山banner1</div>
+									</div>
+								</div>
+								<div class="_2ipok _2V6v6 _197pK">
+									<div
+										class="_1fahC _3RhwV kms-a undefined _2lw5V _2JEKG"
+										data-isdrag="true"
+									>
+										<div class="_2KSRx">
+											<div class="_1gnVf _1w9V3">X</div>
+											<div
+												class="_3lLQa orydJ _34ZCy undefined"
+												data-clipboard-text="0px"
+												id="copyTrigger"
+												style="width: 72px"
+											>
+												<div class="_2n83y">0px</div>
+											</div>
+										</div>
+										<div class="_2KSRx">
+											<div class="_1gnVf _1w9V3">Y</div>
+											<div
+												class="_3lLQa orydJ _34ZCy undefined"
+												data-clipboard-text="0px"
+												id="copyTrigger"
+												style="width: 72px"
+											>
+												<div class="_2n83y">0px</div>
+											</div>
+										</div>
+									</div>
+									<div
+										class="_1fahC _3RhwV kms-a undefined _2JEKG"
+										data-isdrag="true"
+									>
+										<div class="_2KSRx">
+											<div class="_1gnVf _1w9V3">W</div>
+											<div
+												class="_3lLQa orydJ _34ZCy undefined"
+												data-clipboard-text="100vw"
+												id="copyTrigger"
+												style="width: 72px"
+											>
+												<div class="_2n83y">100vw</div>
+											</div>
+										</div>
+										<div class="_2KSRx">
+											<div class="_1gnVf _1w9V3">H</div>
+											<div
+												class="_3lLQa orydJ _34ZCy undefined"
+												data-clipboard-text="300px"
+												id="copyTrigger"
+												style="width: 72px"
+											>
+												<div class="_2n83y">300px</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="_2ipok _2V6v6 _197pK">
+								<div
+									class="_1fahC kms-a undefined _2lw5V _2JEKG"
+									data-isdrag="true"
+								>
+									<div class="_3EUn8 _3RRHk _3X4rZ">响应式</div>
+								</div>
+								<div
+									class="_1fahC _3RhwV kms-a undefined _2lw5V _2JEKG"
+									data-isdrag="true"
+								>
+									<div
+										class="_3lLQa orydJ _34ZCy undefined"
+										data-clipboard-text="缩放"
+										id="copyTrigger"
+										style="width: 100px"
+									>
+										<div class="_2n83y">缩放</div>
+									</div>
+									<div
+										class="_3lLQa orydJ _34ZCy undefined"
+										data-clipboard-text="缩放"
+										id="copyTrigger"
+										style="width: 100px"
+									>
+										<div class="_2n83y">缩放</div>
+									</div>
+								</div>
+							</div>
+							<div class="_2ipok _2V6v6 _197pK">
+								<div
+									class="_1fahC kms-a undefined _2lw5V _2JEKG"
+									data-isdrag="true"
+								>
+									<div class="_3-7up">
+										<div class="_1PStp">
+											<div class="_3EUn8 _3X4rZ" style="margin-right: 4px">
+												切图
+											</div>
+											<div
+												id=""
+												class="_3tblH _1o8Yp _3YTQz _34ZCy KRju0"
+												data-text="规范预设"
+												data-value="format"
+												style="height: 20px; line-height: 20px"
+											>
+												<span
+													class="HQ9d5 wzlos"
+													data-text="规范预设"
+													style="text-indent: 0px"
+													>规范预设</span
+												>
+												<div class="yjBfN HQ9d5 _1o8Yp"></div>
+											</div>
+										</div>
+									</div>
+									<div
+										data-eventkey=""
+										class="a_c _11XjX P9Kx2 _3EYlc afPna _2iU7h _34ZCy"
+									></div>
+								</div>
+								<div class="_2EX-h">
+									<div class="undefined">
+										<div class="_3ueFu _2TwV2">
+											<div class="nOwm7"></div>
+											<div class="_2nbSg fa_5l">
+												<img
+													src="blob:https://js.design/1ce90051-1b97-4005-88ce-5df6b20b74c4"
+													width="120"
+													height="18.75"
+												/>
+											</div>
+										</div>
+									</div>
+									<div class="_2G1cR _3VAHG">
+										<div class="ckaAF">
+											<div
+												id=""
+												class="_3tblH _1o8Yp _34ZCy"
+												data-text="PNG"
+												data-value="PNG"
+												style="
+													height: 24px;
+													width: 208px;
+													max-width: 208px;
+													line-height: 24px;
+												"
+											>
+												<span class="" data-text="PNG" style="width: 188px"
+													>PNG</span
+												>
+												<div class="yjBfN _1o8Yp"></div>
+											</div>
+										</div>
+										<div class="ckaAF">
+											<div
+												id=""
+												class="_3tblH _1o8Yp _34ZCy"
+												data-text="iOS"
+												data-value="ios"
+												style="
+													height: 24px;
+													width: 208px;
+													max-width: 208px;
+													line-height: 24px;
+												"
+											>
+												<span class="" data-text="iOS" style="width: 188px"
+													>iOS</span
+												>
+												<div class="yjBfN _1o8Yp"></div>
+											</div>
+										</div>
+										<div class="_3YdZr">
+											<div class="_1KhHC _34ZCy">
+												<div
+													class="PUf2m PUf2m _29R8J _39C2u _34ZCy"
+													style="margin-right: 4px"
+												></div>
+												<div class="_1Y0ww gr-Z3">标准点@1x</div>
+											</div>
+											<div class="l76i7">
+												<div class="_3LJxs">1920 x 300</div>
+												<div class="_1AihQ gr-Z3">px</div>
+											</div>
+										</div>
+										<div class="_3YdZr">
+											<div class="_1KhHC _34ZCy">
+												<div
+													class="PUf2m PUf2m _29R8J _39C2u _34ZCy"
+													style="margin-right: 4px"
+												></div>
+												<div class="_1Y0ww gr-Z3">视网膜@2x</div>
+											</div>
+											<div class="l76i7">
+												<div class="_3LJxs">3840 x 600</div>
+												<div class="_1AihQ gr-Z3">px</div>
+											</div>
+										</div>
+										<div class="_3YdZr">
+											<div class="_1KhHC _34ZCy">
+												<div
+													class="PUf2m PUf2m _29R8J _39C2u _34ZCy"
+													style="margin-right: 4px"
+												></div>
+												<div class="_1Y0ww gr-Z3">高清视网膜@3x</div>
+											</div>
+											<div class="l76i7">
+												<div class="_3LJxs">5760 x 900</div>
+												<div class="_1AihQ gr-Z3">px</div>
+											</div>
+										</div>
+										<div class="_1XIak _1yqiw _3VAHG _34ZCy">导出当前切图</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="_1gVEJ">
+					<div class="_3FJz3">
+						<div
+							data-eventkey=""
+							class="a_c _11XjX _2kfg9 _2jLoV _2rw-N _2iU7h _34ZCy"
+							data-contr="hovertip"
+							data-option='{"text":"穿透点击","direction":"top"}'
+						></div>
+						<div
+							data-eventkey=""
+							class="a_c _11XjX _2kfg9 _24wRv _2iU7h _34ZCy"
+							data-contr="hovertip"
+							data-option='{"text":"快捷键","direction":"top"}'
+						></div>
+					</div>
+					<div class="_1_JWi">
+						<div
+							class="a_c _15cfx _24jUm _34ZCy"
+							data-contr="hovertip"
+							data-option='{"text":"缩小","direction":"top"}'
+						></div>
+						<div class="_2Qn-4">
+							<div class="gATb5 _34ZCy">42%</div>
+							<div
+								id=""
+								class="_3tblH _1o8Yp _3YTQz _34ZCy _3OArF"
+								data-text="42.07615949213505"
+								data-value="42.07615949213505"
+								style="width: 64px; max-width: 78px"
+							>
+								<span class="" data-text="42.07615949213505" style="width: 44px"
+									>42.07615949213505</span
+								>
+								<div class="yjBfN _1o8Yp"></div>
+							</div>
+						</div>
+						<div
+							class="a_c _15cfx LOOoC _34ZCy"
+							data-contr="hovertip"
+							data-option='{"text":"放大","direction":"top"}'
+						></div>
+					</div>
+				</div>
+				<div class="lrqrL _1rCw_">
+					<div class="EHZbF">
+						<div
+							class="a_c _3lm54 _1QBqm _34ZCy"
+							data-contr="hovertip"
+							data-option='{"text":"切换主题","direction":"bottom"}'
+						></div>
+						<div class="_2iHGl">
+							<div class="_37_Ff">
+								<div class="_2a8dY _34ZCy _3Nx-4">
+									<div class="_2UAe6 _1ulnD"></div>
+									<div><div class="_2Z9Ha">帮助中心</div></div>
+								</div>
+								<div class="_2a8dY _34ZCy _3Nx-4">
+									<div class="_2UAe6 _2VBcm"></div>
+									<div><div class="_2Z9Ha">用户交流群</div></div>
+									<div class="_2n4m0">
+										<div class="_2_Zw3">
+											<div class="_2_LXT mEGRA">
+												<div class="sVgjF">微信群</div>
+												<div class="NjAOG mEGRA _34ZCy">
+													<div class="_1IK_N"></div>
+													<div class="A5BPS twIHE"></div>
+													<div class="A5BPS _3-U23"></div>
+													<div class="A5BPS _13s8n"></div>
+													<div class="A5BPS _2OW_m"></div>
+												</div>
+											</div>
+											<div class="_2_LXT">
+												<div
+													class="sVgjF"
+													id="qqNumberDom"
+													data-clipboard-text="277265711"
+												>
+													QQ群<span> (277265711)</span>
+												</div>
+												<div class="NjAOG">
+													<div class="_1IK_N Y3sl-"></div>
+													<div class="A5BPS twIHE"></div>
+													<div class="A5BPS _3-U23"></div>
+													<div class="A5BPS _13s8n"></div>
+													<div class="A5BPS _2OW_m"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div
+								class="_3lm54 _2TsAW"
+								id="helpBtnProcess"
+								data-type="helpIcon"
+							></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			var _hmt = _hmt || [];
+			!(function () {
+				var e = document.createElement("script");
+				e.src = "https://hm.baidu.com/hm.js?ddd59aa40de002d720cfbf59998d94ac";
+				var t = document.getElementsByTagName("script")[0];
+				t.parentNode.insertBefore(e, t);
+			})();
+		</script>
+		<script>
+			var _hmt = _hmt || [];
+			!(function () {
+				var e = document.createElement("script");
+				e.src = "https://hm.baidu.com/hm.js?d6e5c41bbadb10953c79a938d9d4b239";
+				var t = document.getElementsByTagName("script")[0];
+				t.parentNode.insertBefore(e, t);
+			})();
+		</script>
+		<script type="text/javascript">
+			var _jwcmd = _jwcmd || [];
+			(_jwcmd.sid = "a3a7dd4658bd4bf1adeed3475415007d"),
+				(function () {
+					var e = document.getElementsByTagName("script")[0],
+						t = document.createElement("script");
+					(t.type = "text/javascript"),
+						(t.async = !0),
+						(t.src =
+							"//tracking.jwsem.com/v2/getscript?sid=a3a7dd4658bd4bf1adeed3475415007d&time=" +
+							new Date().getTime()),
+						e.parentNode.insertBefore(t, e);
+				})();
+		</script>
+		<script>
+			window.isProduction = !0;
+		</script>
+		<script
+			type="text/javascript"
+			src="./banner_files/runtime_app.eb772f7da3e45ca4740c.js.下载"
+		></script>
+		<script
+			type="text/javascript"
+			src="./banner_files/chunk.app.d91cd3babd0eb84074da.js.下载"
+		></script>
+		<div
+			class="_2jIHp _1tkPp"
+			style="width: 91px; left: 788.5px; top: 50px; display: none"
+		>
+			<div class="OsFG0" style="left: 57.5px; top: -4px"></div>
+			<span>预览模式 Alt + 4</span>
+		</div>
+	</body>
+</html>
