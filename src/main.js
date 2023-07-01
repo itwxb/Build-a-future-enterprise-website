@@ -13,8 +13,5 @@ new Vue({
 }).$mount("#app");
 
 // title
-const defaultTitle = "默认 title";
-router.beforeEach((to, from, next) => {
-	document.title = to.meta.title ? to.meta.title : defaultTitle;
-	next();
-});
+
+// title
