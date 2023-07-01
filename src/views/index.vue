@@ -2,7 +2,6 @@
 	<!-- star -->
 
 	<div class="homepage_wrap">
-		<div v-title data-title="我是新的标题"></div>
 		<!-- banner图和导航栏 -->
 		<div class="banner_nav">
 			<!-- banner -->
