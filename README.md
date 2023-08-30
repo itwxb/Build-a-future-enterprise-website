@@ -3,6 +3,7 @@
 #### 介绍
 根据学校老师给的UI图 写的打造前程官网
 
+交流Q群: 828789351
 #### 软件架构
 在线演示地址：https://itwxb.gitee.io/firmWeb/index.html
 
@@ -31,4 +32,6 @@
 2.  npm run serve
 ###### 打包
 3.  npm run build
+
+
 
